@@ -139,6 +139,8 @@ vendor/etc/sound_trigger_mixer_paths.xml
 vendor/etc/sound_trigger_platform_info.xml
 
 # Audio FX Modules
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
