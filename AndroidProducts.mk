@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_umi.mk
+    $(LOCAL_DIR)/dot_umi.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_umi-eng \
-    aosp_umi-user \
-    aosp_umi-userdebug
+    dot_umi-eng \
+    dot_umi-user \
+    dot_umi-userdebug
