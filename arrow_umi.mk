@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/umi/device.mk)
 
 # Inherit from the Lineage configuration.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -20,15 +20,19 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := dot_umi
+PRODUCT_NAME := arrow_umi
 PRODUCT_DEVICE := umi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10
 PRODUCT_MANUFACTURER := Xiaomi
 
 #Gapps
-WITH_GAPPS := true
+WITH_GMS := true
 TARGET_GAPPS_ARCH := arm64
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 BUILD_FINGERPRINT := Xiaomi/umi/umi:11/RKQ1.200826.002/V12.5.10.0.RJBCNXM:user/release-keys
+
+# ArrowOS additions
+DEVICE_MAINTAINER := yukikwi
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)

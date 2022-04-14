@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_umi.mk
+    $(LOCAL_DIR)/arrow_umi.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_umi-eng \
-    dot_umi-user \
-    dot_umi-userdebug
+    arrow_umi-eng \
+    arrow_umi-user \
+    arrow_umi-userdebug
