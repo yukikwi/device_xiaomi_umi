@@ -360,8 +360,8 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Thermal HAL
-    android.hardware.thermal@2.0-service.pixel
 PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.pixel
 
 # Touchscreen
 PRODUCT_PACKAGES += \
