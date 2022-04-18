@@ -31,7 +31,7 @@ ARROW_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/umi/umi:11/RKQ1.200826.002/V12.5.10.0.RJBCNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/umi/umi:12/SKQ1.211006.001/V13.0.4.0.SJBCNXM:user/release-keys
 
 # ArrowOS additions
 DEVICE_MAINTAINER := yukikwi
