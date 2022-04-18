@@ -73,7 +73,6 @@ BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # DTBO
 BOARD_KERNEL_SEPARATED_DTBO := true
-BOARD_PREBUILT_DTBOIMAGE := $(OUT_DIR)/target/product/umi/prebuilt_dtbo.img
 
 # Display
 TARGET_NO_RAW10_CUSTOM_FORMAT := true
