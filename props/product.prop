@@ -10,3 +10,11 @@ ro.af.client_heap_size_kbyte=7168
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
+
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
+# Graphics
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
