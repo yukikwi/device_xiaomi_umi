@@ -203,4 +203,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
-include vendor/xiaomi/umi/BoardConfigVendor.mk
+include vendor/xiaomi/umi_miui12/BoardConfigVendor.mk

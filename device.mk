@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/umi/umi-vendor.mk)
+$(call inherit-product, vendor/xiaomi/umi_miui12/umi-vendor.mk)
 
 # HIDL HALs
 $(call inherit-product, $(LOCAL_PATH)/hidl.mk)
@@ -264,6 +264,7 @@ PRODUCT_COPY_FILES += \
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    vendor/xiaomi/umi_miui12 \
     hardware/xiaomi
 
 # OMX
