@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/umi_miui13/umi-vendor.mk)
+$(call inherit-product, vendor/xiaomi/umi/umi-vendor.mk)
 
 # HIDL HALs
 $(call inherit-product, $(LOCAL_PATH)/hidl.mk)
